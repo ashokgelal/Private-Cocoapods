@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:JanX2/google-diff-match-patch-Objective-C.git", :tag => "1.0.5" }
+  s.source       = { :git => "git@github.com:JanX2/google-diff-match-patch-Objective-C.git", :tag => "v1.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
