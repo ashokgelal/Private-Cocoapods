@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage      =  'http://www.mugginsoft.com/code/fragaria'
   s.author        =  { 'Jonathan Mitchell' => 'jonathan@mugginsoft.com' }
   s.source        =  { :git => 'https://github.com/mugginsoft/Fragaria.git', :commit => '5f2bc6528be40cde800eb7d7ef26c6ec2db8aeb3' }
-  s.source_files  =  'NS*.{h,m}', 'MG*.{h,m}', 'ICU*.{h,m}', 'SML*.{h,m}'
+  s.source_files  =  'NS*.{h,m}', 'MG*.{h,m}', 'ICU*.{h,m}', 'SML*.{h,m}, 'DB*.{h,m}'
   s.resources     =  'SML*.xib', 'Syntax Definitions/*.plist', 'SyntaxDefinitions.plist'
 
   s.platform      =  :osx
