@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage      =  'https://github.com/bdkjones/VDKQueue'
   s.author        =  { 'Bryan D K Jones' => '' }
   s.source        =  { :git => 'https://github.com/bdkjones/VDKQueue' }
-  s.source_files  =  '*.m'
+  s.source_files  =  './'
   s.public_header_files = '*.h'
 
   s.platform      =  :osx
