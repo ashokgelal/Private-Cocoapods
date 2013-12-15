@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage      =  'https://bitbucket.org/iracooke/mftask'
   s.author        =  { 'Ira Cooke' => '' }
   s.source        =  { :git => 'https://github.com/ashokgelal/mftask' }
-  s.source_files  =  '*.m', '*.h'
-  s.public_header_files = '*.h'
+  s.source_files  =  'MFTaskQueue.{h,m}','MFTaskDelegateProtocol.h', 'MFTask.{h,m}'
+  s.public_header_files = 'MFTaskqueue.h', 'MFTaskDelegateProtocol.h', 'MFTask.h'
 
   s.platform      =  :osx
   s.license       =  'BSD'
