@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage      =  'http://mattgemmell.com/mgscopebar/'
   s.author        =  { 'Matt Gemmell' => '' }
   s.source        =  { :git => 'https://github.com/mattgemmell/MGScopeBar' }
-  s.source_files  =  'MGScopeBar*.{h,m}'
-  s.public_header_files = 'MGScopeBar*.h'
+  s.source_files  =  'MG*.{h,m}'
+  s.public_header_files = 'MG*.h'
 
   s.platform      =  :osx
   s.license       =  'BSD'
