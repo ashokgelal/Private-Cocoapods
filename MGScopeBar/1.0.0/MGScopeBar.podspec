@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.platform      =  :osx
   s.license       =  'BSD'
 
-  s.requires_arc = true   
+  s.requires_arc = false   
 
 end
